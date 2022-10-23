@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body style="background-color: black; color: cornsilk">
+<div class="container" >
+<div class="row">
+  <div class="col-sm-4"></div>
+  <div class="blockquote col-sm-4">
+  <h2>HTML Forms</h2>
+  </div>
+  </div>
+
+  <div class="row"><hr style="background-color: goldenrod" ></div>
+
+  <div class="row">
+    <div class="col-sm-4"></div>
+    <!--start form-->
+    <div class="col-sm-4">
+<div class="form-group row">
+<form method="POST" action="{{ url_for('harvest_recommend_result') }}">
+
+
+  <div class="row">
+  <div class="col-sm-4">
+  <label for="Nitrogen">Nitrogen:</label>
+  </div>
+    <div class="form-group col-sm-4">
+  <input type="text" id="Nitrogen" name="Nitrogen" value="1.0">
+  </div>
+    <div class="col-sm-4"></div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-4">
+  <label for="Phosphorous">Phosphorous:</label>
+    </div>
+    <div class="form-group col-sm-4">
+  <input type="text" id="Phosphorous" name="Phosphorous" value="1.0">
+    </div>
+    <div class="col-sm-4"></div>
+  </div>
+
+
+  <div class="row">
+    <div class="col-sm-4">
+  <label for="Pottasium">Pottasium:</label>
+    </div>
+    <div class="form-group col-sm-4">
+  <input type="text" id="Pottasium" name="Pottasium" value="1.0">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-4">
+  <label for="PH">PH:</label>
+    </div>
+    <div class="form-group col-sm-4">
+  <input type="text" id="PH" name="PH" value="1.0">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-4">
+  <label for="Rainfall">Rainfall:</label>
+    </div>
+    <div class="form-group col-sm-4">
+  <input type="text" id="Rainfall" name="Rainfall" value="1.0">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-4">
+  <label for="Temperature">Temperature:</label>
+    </div>
+    <div class="form-group col-sm-4">
+  <input type="text" id="Temperature" name="Temperature" value="1.0">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-4">
+  <label for="Humidity">Humidity:</label>
+    </div>
+    <div class="form-group col-sm-4">
+  <input type="text" id="Humidity" name="Humidity" value="1.0">
+    </div>
+  </div>
+<br/>
+  <div class="row">
+    <div class="col-sm-3"></div>
+    <div class="form-group col-sm-4">
+  <input type="submit" value="Submit">
+    </div>
+  </div>
+</form>
+</div>
+
+</div>
+  </div>
+</div>
+</body>
+</html>
