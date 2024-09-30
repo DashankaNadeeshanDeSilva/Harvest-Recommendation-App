@@ -1,12 +1,12 @@
 # Harvest-Recommendation-App
 
-A Machine Learning based recommendation system which recommends the best crop to grow given following data:
-* Fertilizer: Nitrogen, Phosphorous and Pottasium
-* Environmnetal data: PH, Rainfall, Temperature and Humidity
+A Machine Learning based recommendation system which recommends the best crop to grow given the following data:
+* Fertilizer: Nitrogen, Phosphorous and Potassium
+* Environmental data: PH, Rainfall, Temperature and Humidity
 
 ## Data
 
-The dataset used to trained model can be found in the data directory. 
+The dataset used to train the model can be found in the data directory. 
 
 ## Tasks
 
